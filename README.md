@@ -19,8 +19,11 @@ We will be focusing mainly on the classification techniques: KNN, Decision Tree,
 
 #### Results
 - Decision Tree Classifier scored the highest on accuracy, precision, and recall
-- After performing permutation importance on the features, we find that 'fertilizer type' seemed to be the only variable that impacted whether or not a plant met its growth milestone
-- By training our best Decision Tree Classifier on only the 'fertilizer type' variable, we found a further increase in accuracy, precision, and recall
-- The best classifier model was determined to be DecisionTreeClassifier with max depth of 20 and a minimum samples leaf of 3
-- The best model yielded an accuracy score of 0.692308, a precision score of 0.678571, and a recall score of 0.863636
+- After performing permutation importance on the features, we find that 'fertilizer type' seemed to be the most important variable that impacted whether or not a plant met its growth milestone
+- The best classifier model was determined to be DecisionTreeClassifier with max depth of 30 and a minimum samples split of 10
 - Fertilizer type is crucial for determining if a plant meets its growth milestone, as a plant fed with chemical fertilizer was 1.5x more likely succeed compared to plants fed with organic fertilizer and no fertilizer
+
+#### Next Steps
+- More data would likely improve the classification models. A bigger dataset would minimize fluctuation in performance due to the train/test split.
+- The Decision Tree model can be further tuned to detect for any overfitting
+- The assumption is that all plants in this dataset are of the same specie, however the provider of this dataset did not confirm if this is true. If our assumption was false we would have to further divide up the dataset since different plants respond differently to environmental factors.
