@@ -1,4 +1,4 @@
-# Capstone Pt 1
+# Capstone
 ### Plant Growth Prediction and Classification
 
 by Xinyi Ren
