@@ -1,5 +1,6 @@
 # Capstone
 ### Plant Growth Prediction and Classification
+link: https://github.com/xren3/Capstone/blob/main/Capstone.ipynb
 
 by Xinyi Ren
 
